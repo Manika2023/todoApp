@@ -107,3 +107,19 @@ ul li span{
 ul li span:hover{
 background: #edeef0;
 }
+
+
+@media screen and (max-width:991px) {
+     .row{
+          width: 100%;
+          flex-direction: column-reverse;
+     }
+     button{
+          width: 30%;
+          height: 40px;
+          text-align: center;
+          position: relative;
+          margin-left: 20rem;
+          /* flex: 1; */
+     }
+}
